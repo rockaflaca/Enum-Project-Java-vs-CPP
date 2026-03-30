@@ -10,7 +10,7 @@ public class EnumIteration
 
 	public static void main(String[] args)
 	{
-		DayOfWeek[] days = DayOfWeek.values();
+		DayOfWeek[] days = DayOfWeek.values(); //creates an array containing each value in DayOfWeek enum
 		System.out.println(Arrays.toString(days));
 	}
 }
